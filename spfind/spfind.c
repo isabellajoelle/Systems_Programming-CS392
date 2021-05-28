@@ -169,7 +169,6 @@ int main(int argc, char *argv[]) {
 
     // wait for sort
     wait(NULL);
-
     close(sort_to_parent[0]);
 
     printf("Total matches: %i\n", matches);
